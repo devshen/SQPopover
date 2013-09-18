@@ -13,10 +13,12 @@
 @end
 
 @implementation ViewController
+@synthesize lab;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.lab.text = @"hahahah";
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
